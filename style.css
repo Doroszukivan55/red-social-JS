@@ -1,0 +1,70 @@
+body {
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+    background-color: #fed2e5;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+h1 {
+    color: #f582b4;
+}
+
+button {
+    padding: 9px 12px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #f582b4;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    transition: .5s all ease;
+}
+
+button:hover {
+    background-color: #f4a3c6;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 19px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+.postItem{
+    background-color: #fae1ec;
+    border: 1px solid #5a1432;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px
+}
+
+.editForm{
+    display: none;
+    margin-top: 10px;
+}
+
+.logo{
+    margin-left: -150%;
+}
